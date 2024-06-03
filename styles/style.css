@@ -1,0 +1,158 @@
+body {
+	font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.nodes {
+	font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, p {
+	margin: 0;
+}
+p {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-size: 1.5vw;
+}
+
+.hidden-label {
+	visibility: hidden;
+  }
+
+  .visible-label {
+	visibility: visible;
+  }
+section {
+	display: table;
+	background: whitesmoke;
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+	height: 100vh;
+}
+#one {
+	background-image: url("/Users/zahramuna/Documents/Semester 1/Design Research/web/WashingtonCrossing.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome {
+	text-align: center;
+	color: white;
+	position: absolute; 
+    bottom: 0; 
+	left: 10; 
+	padding: 15px; 
+    box-sizing: border-box; 
+	display: flex;
+    align-items:flex-end; 
+}
+.welcome img {
+	margin-right: 5px; 
+}
+#two {
+	background-color: rgba(255, 255, 255, 0.88);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.contents{
+	max-height: inherit;
+	width: auto;
+}
+
+#imgradensaleh {
+	float: left;
+	clear: right;
+	height: 50%;
+	width: auto;
+	padding-left: 5vh;
+}
+figcaption {
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	text-align: center; margin-left: -65%;
+	font-size: smaller;
+	padding: 630px 45px;
+
+}
+#three {
+	background-image: url("/Users/zahramuna/Documents/Semester 1/Design Research/web/wandererabovetheseafogHD.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: darkslateblue;
+}
+#three a{
+	font-size: 2.5vw;
+	color: rgb(15, 77, 31);
+	text-decoration: none;
+	background-color: rgba(67, 67, 67, 0.88);
+}
+
+ul {
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+#three p {
+	padding: 5px;
+	background-color: rgba(67, 67, 67, 0.88);
+}
+#four {
+	background-image: url("/Users/zahramuna/Documents/Semester 1/Design Research/web/radensaleh.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nationalism {
+	background-image: url("/Users/zahramuna/Documents/Semester 1/Design Research/web/frenchamericanrevolution.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Metaphor {
+	background-image: url("/Users/zahramuna/Documents/Semester 1/Design Research/web/forestfire.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Homepage {
+	background-color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome {
+	padding-top: 50vh;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+#five {
+	display: table;
+	background-color: orange;
+}
+#six {
+	background-color: yellowgreen;
+}
+#seven {
+	background-color: darkolivegreen;
+}
+.center {
+	text-align: center;
+	margin: 0% auto;
+	float: none;
+}
+
+iframe{
+    border: 0px;
+}
