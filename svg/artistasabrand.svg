@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.74 117.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <circle cx="58.87" cy="48.13" r="10.53"/>
+      <rect x="42.45" y="59.9" width="32.84" height="28.89"/>
+      <polygon class="cls-1" points="58.87 22.14 78.95 10.39 84.84 32.9 107.35 38.79 95.6 58.87 107.35 78.95 84.84 84.84 78.95 107.35 58.87 95.6 38.79 107.35 32.9 84.84 10.39 78.95 22.14 58.87 10.39 38.79 32.9 32.9 38.79 10.39 58.87 22.14"/>
+    </g>
+    <circle class="cls-1" cx="58.87" cy="58.87" r="57.87"/>
+  </g>
+  <line class="cls-1" x1="57.32" y1="29.98" x2="75.29" y2="40.09"/>
+</svg>
