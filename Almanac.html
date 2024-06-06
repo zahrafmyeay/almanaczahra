@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Almanac</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        #graph-container {
+            width: 100vw;
+            height: 100vh;
+            display: inline-block;
+        }
+        #info-text {
+            padding-left: 160vh;
+            position: absolute;
+            bottom: 10px;
+            left: 10px; 
+            font-size: 10px; 
+        }
+    </style>
+</head>
+<body>
+</div>
+</section>
+<section id="Homepage">
+    <div class="welcome">
+            <a href="https://example.com" style="display: flex; align-items:baseline ; text-decoration: none; background: none;">
+                    <span style="font-size:10vw;font-weight: bold; color: rgb(0, 0, 0);">Almanac</span>
+                    <img src="svg Zahirah/almanacwhite.svg"alt="icon" width="50" height="50">
+                </a>
+                </div>
+    <div id="info-text">By: Zahirah & Zahra</div>
+    <div id="graph-container"></div>
+    </div>
+
+    <script>
+        var container = document.getElementById('graph-container');
+        var nodes = new vis.DataSet([
+            { id: 1, shape: 'image', image: "pictogramhistorywhite.svg", label: 'History Painting', },
+            { id: 2, shape: 'image', image: 'pictogramcolonialismwhite.svg', label: 'Colonialism' },
+            { id: 3, shape: 'image', image: 'pictogramnationalismwhite.svg', label: 'Nationalism' },
+            { id: 4, shape: 'image', image: 'romanticismpictogram.svg', label: 'Romanticism'},
+            { id: 5, shape: 'image', image: 'svg Zahirah/commercialartwhite2.svg', label: 'Commercial Art'},
+            { id: 6, shape: 'image', image: 'flat icon/consumerismwhite.svg', label: 'Consumerism'},
+            { id: 7, shape: 'image', image: 'flat icon/artistasabrandwhite.svg', label: 'Artist As A Brand'},
+            { id: 8, shape: 'image', image: 'flat icon/popartwhite.svg', label: 'Pop Art'},
+            { id: 9, shape: 'image', image: "flat icon/highandlowartwhite.svg", label: 'High and Low Art' },
+            { id: 10, shape: 'image', image: "svg Zahirah/conceptartwhite.svg", label: 'Concept Art' },
+            { id: 11, shape: 'image', image: "svg Zahirah/modernartwhite.svg", label: 'Modern Art' },
+            { id: 12, shape: 'image', image: "svg Zahirah/colorwhite.svg", label: 'Colour' },
+            { id: 13, shape: 'image', image: "svg Zahirah/fairytalewhite.svg", label: 'Fairy Tale' },
+            { id: 14, shape: 'image', image: "flat icon/superflatwhite.svg", label: 'Superflat' },
+            { id: 15, shape: 'image', image: "pictogrammetaphorwhite.svg", label: 'Metaphor' },
+            { id: 16, shape: 'image', image: "flat icon/popculturewhite.svg", label: 'Pop Culture Reference' },
+
+        ]);
+        var edges = new vis.DataSet([
+            { from: 1, to: 2 },
+            { from: 2, to: 3 },
+            { from: 4, to: 1 },
+            { from: 5, to: 1 },
+            { from: 6, to: 5 },
+            { from: 6, to: 7 },
+            { from: 7, to: 5 },
+            { from: 8, to: 7 },
+            { from: 8, to: 6 },
+            { from: 8, to: 9 },
+            { from: 8, to: 10 },
+            { from: 9, to: 11 },
+            { from: 10, to: 7 },
+            { from: 10, to: 12 },
+            { from: 10, to: 15 },
+            { from: 12, to: 11 },
+            { from: 13, to: 12 },
+            { from: 13, to: 4 },
+            { from: 14, to: 12 },
+            { from: 14, to: 16 },
+            { from: 15, to: 12 },
+            { from: 15, to: 16 },
+            { from: 16, to: 13 },
+            { from: 16, to: 5 },
+        ]);
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+
+        var options = {
+            autoResize: true,
+            width: '100%',
+            height: '100%', 
+            interaction: {
+                hover: true
+             },
+        
+            nodes: {
+                font: {
+                    size: 14,
+                    face: 'Montserrat'
+                }
+            }
+        };
+        var network = new vis.Network(container, data, options);
+
+        network.on("hoverNode", function (params) {
+    var nodeId = params.node;
+    var nodeLabel = nodes.get(nodeId).label;
+  });
+
+  network.on("blurNode", function (params) {
+    var nodeId = params.node;
+    network.body.nodes[nodeId].labelModule.element.classList.remove('visible-label');
+    network.body.nodes[nodeId].labelModule.element.classList.add('hidden-label');
+  });
+
+        // Add click event listener to nodes
+        network.on("click", function (params) {
+            if (params.nodes.length > 0) {
+                var nodeId = params.nodes[0];
+                var node = nodes.get(nodeId);
+                if (node.label === 'History Painting') {
+                    window.location.href = 'HistoryPainting.html';
+                } else if (node.label === 'Colonialism') {
+                    window.location.href = 'Colonialism.html';
+                } else if (node.label === 'Nationalism') {
+                    window.location.href = 'Nationalism.html';
+                } else if (node.label === 'Romanticism') {
+                    window.location.href = 'Romanticism.html';
+                } else if (node.label === 'Commercial Art') {
+                    window.location.href = 'https://zahirahalmanac.netlify.app/commercialartzahirah';
+                }  else if (node.label === 'Consumerism') {
+                    window.location.href = 'https://example.com/node5';
+                }  else if (node.label === 'Artist As A Brand') {
+                    window.location.href = 'https://example.com/node5';
+                }  else if (node.label === 'Pop Art') {
+                    window.location.href = 'https://example.com/node5';
+                }  else if (node.label === 'High and Low Art') {
+                    window.location.href = 'https://example.com/node5';
+                }  else if (node.label === 'Concept Art') {
+                    window.location.href = 'https://zahirahalmanac.netlify.app/conceptartzahirah';
+                }  else if (node.label === 'Modern Art') {
+                    window.location.href = 'https://zahirahalmanac.netlify.app/modernartzahirah';
+                }  else if (node.label === 'Colour') {
+                    window.location.href = 'https://zahirahalmanac.netlify.app/colourzahirah';
+                }  else if (node.label === 'Fairy Tale') {
+                    window.location.href = 'https://zahirahalmanac.netlify.app/fairytalezahirah';
+                }  else if (node.label === 'Superflat') {
+                    window.location.href = 'Superflat.html';
+                }  else if (node.label === 'Metaphor') {
+                    window.location.href = 'Metaphor.html';
+                }  else if (node.label === 'Pop Culture Reference') {
+                    window.location.href = 'https://example.com/node5';
+                } 
+            }
+        });
+    </script>
+</body>
+</html>
