@@ -74,7 +74,7 @@ section {
 figcaption {
 	color: rgb(0, 0, 0);
 	font-style: normal;
-	text-align: left;
+	text-align: center; margin-left: -65%;
 	font-size: smaller;
 	padding: 630px 45px;
 
