@@ -33,7 +33,7 @@ section {
 	height: 100vh;
 }
 #one {
-	background-image: url("../WashingtonCrossing.jpg");
+	background-image: url("../imageszahra/WashingtonCrossing.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,13 +74,13 @@ section {
 figcaption {
 	color: rgb(0, 0, 0);
 	font-style: normal;
-	text-align: center; margin-left: -65%;
+	text-align: left;
 	font-size: smaller;
 	padding: 630px 45px;
 
 }
 #three {
-	background-image: url("../wandererabovetheseafogHD.jpeg");
+	background-image: url("../imageszahra/wandererabovetheseafogHD.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,29 +105,29 @@ li {
 	background-color: rgba(67, 67, 67, 0.88);
 }
 #four {
-	background-image: url("../radensaleh.jpeg");
+	background-image: url("../imageszahra/radensaleh.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #nationalism {
-	background-image: url("../frenchamericanrevolution.jpeg");
+	background-image: url("../imageszahra/frenchamericanrevolution.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #superflat {
-	background-image: url("../MurakamiSuperflatHomepage.jpg");
-	background-image: img src="images/MurakamiSuperflatHomepage.jpg";
+	background-image: url("../images/MurakamiSuperflatHomepage.jpg");
+	background-image: img src="../images/MurakamiSuperflatHomepage.jpg";
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #Metaphor {
-	background-image: url("../forestfire.jpeg");
+	background-image: url("../imageszahra/forestfire.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
