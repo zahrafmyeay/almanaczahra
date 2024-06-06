@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-8 {
+        stroke: #231f20;
+      }
+
+      .cls-5, .cls-8, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 8.69px;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3, .cls-8 {
+        fill: #000;
+      }
+
+      .cls-6 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 214.64px;
+      }
+
+      .cls-7 {
+        stroke: #050505;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="373.26" cy="-493.79" r="388.01"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <circle class="cls-2" cx="400" cy="386.42" r="386.27"/>
+    </clipPath>
+  </defs>
+  <g class="cls-1">
+    <path class="cls-4" d="M268.24,26.99c14.19-145.53,28.39-291.06,42.58-436.6l132.47,5.9c11.23,144.05,22.47,288.1,33.71,432.15-69.59-.48-139.17-.96-208.76-1.45Z"/>
+  </g>
+  <g>
+    <circle class="cls-5" cx="400" cy="402.33" r="386.27"/>
+    <g class="cls-9">
+      <path class="cls-3" d="M295.45,904.86c14.13-144.88,28.26-289.75,42.39-434.63,44.49-10.82,88.99-21.65,133.48-32.47,10.65,156.18,21.3,312.36,31.95,468.54-69.27-.48-138.54-.96-207.82-1.44Z"/>
+      <path class="cls-7" d="M403.64,140.83c-104.26,118.62-130.81,249.81-89.76,307,6.93,9.66,29.36,36.11,88.94,37.11,64.2-3.59,87.7-34.89,93.77-43.98,40.57-60.69,13.44-191.79-92.95-300.13Z"/>
+      <text class="cls-6" transform="translate(348.5 682.18)"><tspan x="0" y="0">$</tspan></text>
+    </g>
+    <path class="cls-8" d="M404.19,185.2c-7.94,8.88-19.37,22.79-30.85,41.56-14.49,23.68-12.87,28.65-11.8,30.67,2.48,4.64,8.54,5.74,56.26,5.08,25.42-.35,29.81-.75,31.94-4.36,5.04-8.55-8.17-25.82-26.86-50.27-7.65-10-14.34-17.79-18.69-22.68Z"/>
+  </g>
+</svg>

@@ -1,0 +1,140 @@
+body {
+    font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+h1, p {
+    margin: 0;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-size: 1.5vw;
+}
+section {
+    display: table;
+    background: whitesmoke;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+#modernart {
+    background-image: url("../foto/StarryNight.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome {
+    text-align: center;
+    color: white;
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Align to bottom */
+    left: 10; /* Align to left */ 
+    padding: 15px; /* Add some padding */
+    box-sizing: border-box; 
+    display: flex; /* Use flexbox to align items */
+    align-items:flex-end; /* Align items to the bottom */
+}
+.welcome img {
+    margin-right: 5px; /* Add some space between images */
+}
+#two {
+    background-color: rgba(255, 255, 255, 0.88);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.contents{
+    max-height: inherit;
+    width: auto;
+}
+
+#imgzahirah {
+    float: left;
+    clear: right;
+    height: 50%;
+    width: auto;
+    padding-left: 5vh;
+}
+figcaption {
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    text-align: left;
+    font-size: smaller;
+    padding: 630px 45px;
+
+}
+#conceptart {
+    background-image: url("../foto/aliceconceptart.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkslateblue;
+}
+#three a{
+    font-size: 2.5vw;
+    color: rgb(15, 77, 31);
+    text-decoration: none;
+    background-color: rgba(67, 67, 67, 0.88);
+}
+
+ul {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+#three p {
+    padding: 5px;
+    background-color: rgba(67, 67, 67, 0.88);
+}
+#commercialart {
+    background-image: url("../foto/marysmallworld.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fairytale {
+    background-image: url("../foto/fixmarypeterpan.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#colour {
+    background-image: url("../foto/avantgarde.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome {
+    padding-top: 50vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#five {
+    display: table;
+    background-color: orange;
+}
+#six {
+    background-color: yellowgreen;
+}
+#seven {
+    background-color: darkolivegreen;
+}
+.center {
+    text-align: center;
+    margin: 0% auto;
+    float: none;
+}
+
+iframe{
+    border: 0px;
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        stroke: #000;
+        stroke-width: 6.25px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-8 {
+        fill: #000;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 3.71px;
+      }
+
+      .cls-6, .cls-7, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #231f20;
+      }
+
+      .cls-8 {
+        stroke-width: 4.07px;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="427.02" cy="262.18" r="164.89"/>
+    </clipPath>
+  </defs>
+  <circle class="cls-7" cx="427.02" cy="265.29" r="164.89"/>
+  <polygon class="cls-5" points="382.59 303.81 429.12 212.83 475.65 303.81 382.59 303.81"/>
+  <path class="cls-7" d="M451.98,257.49c-2.66,11.45-13.13,19.2-24.2,18.41-9.82-.7-18.33-7.99-20.78-18.03,7.37-15.02,14.74-30.03,22.11-45.05,7.62,14.89,15.24,29.77,22.86,44.66Z"/>
+  <path class="cls-4" d="M430.41,197.77l-7.16-19.34c-.3-.81-.93-1.44-1.74-1.74l-19.34-7.16,19.34-7.16c.81-.3,1.44-.93,1.74-1.74l7.16-19.34,7.16,19.34c.3.81.93,1.44,1.74,1.74l19.34,7.16-19.34,7.16c-.81.3-1.44.93-1.74,1.74l-7.16,19.34Z"/>
+  <g class="cls-1">
+    <rect class="cls-8" x="380.78" y="305.98" width="96.67" height="124.2"/>
+    <line class="cls-6" x1="409.41" y1="304.84" x2="409.41" y2="429.04"/>
+    <line class="cls-6" x1="446.23" y1="304.84" x2="446.23" y2="429.04"/>
+    <rect class="cls-3" x="372.24" y="302.17" width="113.76" height="4.77"/>
+  </g>
+</svg>

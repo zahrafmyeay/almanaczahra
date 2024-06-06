@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 385.51 416.49">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 3.33px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-5, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: #000;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke-width: 4.71px;
+      }
+
+      .cls-7 {
+        fill: #231f20;
+        stroke-width: 0px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-1" cx="192.76" cy="192.76" r="191.09"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g>
+      <g>
+        <circle class="cls-5" cx="192.76" cy="192.76" r="191.09"/>
+        <g class="cls-6">
+          <polygon class="cls-2" points="194.14 253.41 285.67 414.8 100.14 413.38 194.14 253.41"/>
+        </g>
+        <circle class="cls-3" cx="192.76" cy="192.76" r="191.09"/>
+      </g>
+      <path class="cls-4" d="M193.32,108.48c-50.12,0-91.09,39.07-94.17,88.41l-24.97,37.73,30.96,1.89c13.56,35.5,47.91,60.73,88.18,60.73,52.12,0,94.38-42.26,94.38-94.38s-42.26-94.38-94.38-94.38Z"/>
+    </g>
+    <circle class="cls-7" cx="131.14" cy="187.32" r="9.99"/>
+    <rect class="cls-7" x="145.29" y="53.71" width="7.22" height="30.1" transform="translate(-13.41 45.2) rotate(-16.53)"/>
+    <rect class="cls-7" x="190.29" y="46.3" width="7.22" height="30.1"/>
+    <rect class="cls-7" x="232.96" y="55.5" width="7.22" height="30.1" transform="translate(50.78 -92) rotate(24.58)"/>
+    <rect class="cls-7" x="112.67" y="75.12" width="7.22" height="30.1" transform="translate(-30.6 98.96) rotate(-41.22)"/>
+  </g>
+  <rect class="cls-7" x="265.31" y="73.77" width="7.22" height="30.1" transform="translate(158.53 -171.99) rotate(48.78)"/>
+</svg>
