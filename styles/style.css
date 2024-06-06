@@ -62,6 +62,7 @@ section {
 .contents{
 	max-height: inherit;
 	width: auto;
+	display: flex;
 }
 
 #imgradensaleh {
