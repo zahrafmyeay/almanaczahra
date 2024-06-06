@@ -62,14 +62,13 @@ section {
 .contents{
 	max-height: inherit;
 	width: auto;
-	display: flex;
 }
 
 #imgradensaleh {
 	float: left;
 	clear: right;
 	height: 50%;
-	width: auto;
+	width: 30%;
 	padding-left: 5vh;
 }
 figcaption {
