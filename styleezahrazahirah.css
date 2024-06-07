@@ -91,7 +91,6 @@ li {
 }
 #superflat {
 	background-image: url("images/MurakamiSuperflatHomepage.jpg");
-	background-image: img src="images/MurakamiSuperflatHomepage.jpg";
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
