@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanac</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="styleezahrazahirah.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/images/ddevicon.ico" type="image/x-icon"/>
+</head>
+<body>
+	</div>
+	</section>
+	<section id="consumerism">
+		<div class="welcome">
+				<a href="zahrafm/index.html" style="display: flex; align-items:baseline ; text-decoration: none; background: none;">
+						<span style="font-size:100px;font-weight: bold; color: white;">Consumerism</span>
+						<img src="zahrafm/svg Zahirah/almanacwhite.svg"alt="icon" width="50" height="50">
+				<a href="zahirahsn/CommercialArt.html" style="display: flex; text-decoration: none; background: none;">
+						<img src="zahrafm/svg Zahirah/commercialwartwhite.svg"alt="icon" width="50" height="105">
+				<a href="ArtistAsABrand.html" style="display: flex; text-decoration: none; background: none;">
+						<img src="svg/ArtistAsABrand.svg"alt="icon" width="50" height="105">
+				<a href="PopArt.html" style="display: flex; text-decoration: none; background: none;">
+						<img src="svg/PopArt.svg"alt="icon" width="50" height="105">
+					</a>
+					</div>
+		</div>
+	</section>
+	<section id="two" style="z-index: -2; margin-bottom: -5%;">
+		<div style="z-index: -1;height: 100%;width: 100%;position: absolute;" class="contents">
+			<img src="images/WarholSoupcan.jpg" id="imgradensaleh" alt="radensaleh" style="height: 60%; width: 40%;">
+			<figcaption style="padding-top: 61vh;">
+				Andy Warhol, <em>Campbell's Soupcans,</em> 1962.
+			</figcaption>
+		</div>
+
+		<div class="contents">
+			<div style="padding-left: 50%; width: 50%;">
+				<div style="padding-bottom: 20px;">
+					<h1 style="font-size: 3vw; color: rgb(0, 0, 0);">Consumerism</h1>
+                    <h2 style="font-size: 2vw; color: rgb(0, 0, 0);">Concept</h2>
+				</div>
+				<p>Consumerism shapes our economic systems and social values. It's the idea that increasing consumption of goods is desirable, and that our happiness as well as worth are tied to material possessions. This can fuel economic growth, as businesses rely on consumers buying their products. However, consumerism is often criticized for its negative impacts. It can lead to people feeling pressured to buy things they don't need, creating debt. Furthermore, the pursuit of material possessions can come at the expense of environmental sustainability and a focus on experiences or relationships. In design or art relations, consumerism links to artists who commercialized their work, creating not niche but mass production to promote themselves and increase their incomes.
+	</section>
+	<section id="two" style="z-index: -2; margin-bottom: -3%;">
+		<div style="z-index: -1;height: 100%;width: 100%;position: absolute;" class="contents">
+			<img src="images/AndyWarhol.jpg" id="imgradensaleh" alt="radensaleh" style="height: 50%; width: 40%;">
+			<figcaption style="padding-top: 51vh;">
+			Andy Warhol
+			</figcaption>
+		</div>
+		
+		<div class="contents">
+			<div style="padding-left: 50%; width: 50%;">
+				<div style="padding-bottom: 20px;">
+					<h1 style="font-size: 3vw; color: rgb(0, 0, 0);">Andy Warhol</h1>
+                    <h2 style="font-size: 2vw; color: rgb(0, 0, 0);">Artist</h2>
+				</div>
+				<p>As an artist, filmmaker, editor, writer and record producer, Warhol has worked in so many different media formats that beginning to analyze his output can be overwhelming. (Elizabeth 2014) He was born in Pittsburgh in Pennsylvania in the USA as a third son of Andrej Warhola and Julia Justina Zavacka. His original name was Andrew Warhola, but he created his artistic name when he came to New York in 1949. The date of his birth is not exactly known. In many sources, we can find dates between 1928 - 1931, but the most stated date is 6 July 1928. (Tereze 2013)
+				</section>
+	</section>
+	<section id="two" style="z-index: -2; margin-bottom: -15%;">
+		<div style="z-index: -1;height: 100%;width: 100%;position: absolute;" class="contents">
+			<img src="images/TakashiMurakami.jpg" 
+			id="imgradensaleh" alt="radensaleh" style="height: 50%; width: 40%;">
+			<figcaption style="padding-top: 51vh;">
+				Takashi Murakami
+			</figcaption>
+		</div>
+		
+		<div class="contents">
+			<div style="padding-left: 50%; width: 50%;">
+				<div style="padding-bottom: 20px;">
+					<h1 style="font-size: 3vw; color: rgb(0, 0, 0);">Takashi Murakami</h1>
+					<h2 style="font-size: 2vw; color: rgb(0, 0, 0);">Artist</h2>
+				</div>
+				<p>Born in 1962 in Tokyo, Murakami’s artistic background was in the precise, laborious mastering of traditional Japanese painting, which he studied for 11 years, specialising in the field of Nihonga painting, a refined form of watercolour practice, whose subjects, most often flowers and landscapes, are as traditional as its techniques. Concurrently with his studies, Murakami continued to nurture his passion for manga and anime, the comics and animated films of his native country. One might assume, on first looking at Murakami’s images, that his interest in these modern idioms entirely supplanted his training in the time-honoured forms of Japanese art. But closer inspection reveals that they have an enduring presence. (Luke 2007)
+				</section>
+	</section>
+	<section id="two" style="z-index: -2">
+				
+		<div class="contents">
+			<div style="padding: 30px; width: 100%;">
+				<div style="padding-top: 20px;">
+					<h1 style="font-size: 3vw; color: rgb(0, 0, 0);">References</h1>
+				</div>
+				<p>
+					Murakami, Takashi, and Paul Schimmel. “Takashi Murakami.” Museum of Contemporary Art, 2007.
+                    <br><br>
+                    Joan Kelly, Elizabeth. "Andy Warhol: documentaries and biographical films." Collection building 33, no. 3 2014: 81-85.
+					<br><br>
+                    Gerbová, Tereza. "Andy Warhol and His Influence on American Cultural Life." 2013.
+                    <br><br>
+                    Lisica, Cindy. "Beyond Consumption: the art and merchandise of a superflat generation." PhD diss., University of the Arts London, 2010. Harvard
+                    <br><br>
+                    Kucuk, S. Umit. "Consumerism in the digital age." Journal of Consumer Affairs 50, no. 3 (2016): 515-538.
+					<br><br>
+                    Meneley, Anne. "Consumerism." Annual Review of Anthropology 47 (2018): 117-132.
+					<br><br>
+				</section>
+</section>
+</body>
+</html>
