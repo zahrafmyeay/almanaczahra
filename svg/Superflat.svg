@@ -3,17 +3,22 @@
   <defs>
     <style>
       .cls-1 {
-        fill: none;
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
+
+      .cls-2 {
+        fill: none;
+      }
     </style>
   </defs>
-  <g>
-    <line class="cls-1" x1="9.26" y1="66.17" x2="108.48" y2="66.17"/>
-    <circle cx="90.93" cy="51.26" r="8.38"/>
-    <circle cx="35.16" cy="46.31" r="13.33"/>
-  </g>
   <circle class="cls-1" cx="58.87" cy="58.87" r="57.87"/>
+  <line class="cls-2" x1="9.26" y1="66.17" x2="108.48" y2="66.17"/>
+  <circle cx="90.93" cy="51.26" r="8.38"/>
+  <circle cx="35.16" cy="46.31" r="13.33"/>
 </svg>
