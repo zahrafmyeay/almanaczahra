@@ -125,6 +125,13 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#popart {
+	background-image: url("images/cryinggirl.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #Homepage {
 	background-color: white;
     background-attachment: fixed;
