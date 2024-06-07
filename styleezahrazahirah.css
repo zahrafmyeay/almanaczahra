@@ -72,6 +72,14 @@ figcaption {
 	padding: 630px 45px;
 
 }
+figcaptionbot {
+	color: rgb(0, 0, 0);
+	font-style: normal;
+	text-align: left;
+	font-size: smaller;
+	padding: 1000px 45px;
+
+}
 #three a{
 	font-size: 2.5vw;
 	color: rgb(15, 77, 31);
