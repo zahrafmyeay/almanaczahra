@@ -97,6 +97,13 @@ li {
     background-size: cover;
     background-color: black;
 }
+#highandlowart {
+	background-image: url("images/PuppyJeffKoons.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #Homepage {
 	background-color: white;
     background-attachment: fixed;
