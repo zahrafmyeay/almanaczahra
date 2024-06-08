@@ -5,13 +5,25 @@ body {
     height: 100%;
     width: 100%;
 }
-h1, p {
+/* h1, p {
     margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+} */
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0%;
 }
+
+h2 {
+    font-size: 2rem;
+}
+
 p {
     color: rgb(0, 0, 0);
     font-size: 18px;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 section {
     display: table;
@@ -34,38 +46,72 @@ section {
     position: absolute; /* Set position to absolute */
     bottom: 0; /* Align to bottom */
     left: 10; /* Align to left */ 
-    padding: 15px; /* Add some padding */
+    padding-left: 2%;
+    /* padding: 15px; Add some padding */
     box-sizing: border-box; 
     display: flex; /* Use flexbox to align items */
-    align-items:flex-end; /* Align items to the bottom */
+    justify-content: center; /* Center items horizontally */
+    align-items: baseline; /* Center items vertically */
 }
 .welcome img {
     margin-right: 5px; /* Add some space between images */
 }
+.welcome h1{
+    margin: 0
+}
+.iconlink {
+    display: flex; 
+}
+
 #two {
     background-color: rgba(255, 255, 255, 0.88);
     overflow: hidden;
     position: relative;
     width: 100%;
 }
-.contents{
-    max-height: inherit;
-    width: auto;
+
+/* Default styles for desktop */
+.container {
+    display: flex;
+    padding-bottom: 10%;
+    /* Other styling properties as needed */
 }
+.item {
+    flex: 1;
+    padding: 5px;
+    /* Other styling properties as needed */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column; /* Stack vertically */
+    }
+    .item {
+        width: 100%; /* Take full width */
+        /* Other styling properties for mobile */
+    }
+    .welcome {
+        flex-direction: column; /* Stack vertically */
+    }
+
+    .iconlink {
+        padding-top: 0%;
+    }
+}
+
 
 #imgzahirah {
     float: left;
     clear: right;
     height: 50%;
     width: auto;
-    padding-left: 5vh;
 }
 figcaption {
     color: rgb(0, 0, 0);
     font-style: normal;
     text-align: left;
-    font-size: smaller;
-    padding: 630px 45px;
+    font-size: 1rem;
 
 }
 #conceptart {
